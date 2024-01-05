@@ -6,12 +6,12 @@
 /*   By: bakdogan <bakdogan@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 16:57:52 by bakdogan          #+#    #+#             */
-/*   Updated: 2023/12/09 17:38:19 by bakdogan         ###   ########.fr       */
+/*   Updated: 2024/01/05 14:51:46 by bakdogan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
@@ -32,9 +32,11 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 /*
 int	main(void)
 {
+	char	dest[40];
+	int		i;
+
 	const char *cp = "BilgisayarKavramlari"
-	char dest[40];
-	int i = 0;
+	i = 0;
 	while(i<40)
 	{
 		dest[i] = 'a';

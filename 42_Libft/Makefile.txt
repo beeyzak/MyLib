@@ -4,7 +4,7 @@ OBJS = $(SRCS:.c=.o)
 CC = gcc -g
 CFLAGS = -Wall -Wextra -Werror
 ARFLAGS = -rc
-
+RM = rm -rf
 all : $(NAME)
 
 $(NAME) :

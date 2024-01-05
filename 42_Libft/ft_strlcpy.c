@@ -1,12 +1,17 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bakdogan <bakdogan@student.42istanbul.c    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/01/05 14:48:45 by bakdogan          #+#    #+#             */
+/*   Updated: 2024/01/05 15:18:27 by bakdogan         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include <stdio.h>
+
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -33,9 +38,8 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t dstsize)
 	}
 	return (ft_strlen(src));
 }
-int main()
+int	main(void)
 {
-    printf("Hello World");
-
-    return 0;
+	printf("Hello World");
+	return (0);
 }
