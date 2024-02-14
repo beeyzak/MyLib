@@ -5,3 +5,5 @@ The string.h header file in the C Programming Language standard library, contain
 The aim of this project is to rewrite the functions in this library and some additional functions, thus understanding the working logic of the functions, implementing
 them and learning how to use them.
 
+## libft.h
+
